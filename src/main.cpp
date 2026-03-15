@@ -12,7 +12,7 @@ int main() {
     library.addBook(Book(102, "The Hobbit", "J.R.R. Tolkien"));
     library.addBook(Book(103, "1984", "George Orwell"));
 
-    library.addMember(Member(1, "Alice", "alice123"));
+    library.addMember(Member(1, "Dave", "dave123"));
 
     do {
         std::cout << "\n===== Smart Library Management System =====" << std::endl;

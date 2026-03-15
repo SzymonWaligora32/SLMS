@@ -8,9 +8,9 @@ int main() {
     int bookId;
     std::string title;
 
-    library.addBook(Book(101, "Clean Code", "Robert Martin"));
-    library.addBook(Book(102, "C++ Primer", "Lippman"));
-    library.addBook(Book(103, "Design Patterns", "Gamma"));
+    library.addBook(Book(101, "Harry Potter", "J.K. Rowling"));
+    library.addBook(Book(102, "The Hobbit", "J.R.R. Tolkien"));
+    library.addBook(Book(103, "1984", "George Orwell"));
 
     library.addMember(Member(1, "Alice", "alice123"));
 
